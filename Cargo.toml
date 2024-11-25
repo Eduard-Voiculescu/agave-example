@@ -1,0 +1,10 @@
+[package]
+name = "agave"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+agave-geyser-plugin-interface = { git = "https://github.com/anza-xyz/agave.git", tag = "v2.0.16" }
+
+[patch.crates-io]
+solana-program = { git = "https://github.com/anza-xyz/agave.git", tag = "v2.0.16" }
