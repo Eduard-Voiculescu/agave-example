@@ -8,3 +8,4 @@ agave-geyser-plugin-interface = { git = "https://github.com/anza-xyz/agave.git",
 
 [patch.crates-io]
 solana-program = { git = "https://github.com/anza-xyz/agave.git", tag = "v2.0.16" }
+solana-zk-token-sdk = { git = "https://github.com/anza-xyz/agave.git", tag = "v2.0.16" }
